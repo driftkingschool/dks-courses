@@ -160,7 +160,7 @@
 
     /* ---------- REVEAL ON SCROLL ---------- */
     function initReveal() {
-        const candidates = document.querySelectorAll('.adv-card, .signature-card, .section-header, .comp-item, .car-course, .quick-close-card, .teaser-card, .journey-bridge');
+        const candidates = document.querySelectorAll('.adv-card, .signature-card, .section-header, .comp-item, .car-course, .teaser-card, .journey-bridge');
         candidates.forEach((el) => el.classList.add('reveal'));
         const io = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
